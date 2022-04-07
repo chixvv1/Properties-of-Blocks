@@ -30,8 +30,12 @@ Block{minecraft:sand}|equalsToHitbox
 Block{minecraft:red_sand}|equalsToHitbox
 Block{minecraft:gravel}|equalsToHitbox
 Block{minecraft:gold_ore}|equalsToHitbox
+Block{minecraft:deepslate_gold_ore}|equalsToHitbox
 Block{minecraft:iron_ore}|equalsToHitbox
+Block{minecraft:deepslate_iron_ore}|equalsToHitbox
 Block{minecraft:coal_ore}|equalsToHitbox
+Block{minecraft:deepslate_coal_ore}|equalsToHitbox
+Block{minecraft:nether_gold_ore}|equalsToHitbox
 Block{minecraft:oak_log}|equalsToHitbox
 Block{minecraft:spruce_log}|equalsToHitbox
 Block{minecraft:birch_log}|equalsToHitbox
@@ -62,10 +66,13 @@ Block{minecraft:birch_leaves}|equalsToHitbox
 Block{minecraft:jungle_leaves}|equalsToHitbox
 Block{minecraft:acacia_leaves}|equalsToHitbox
 Block{minecraft:dark_oak_leaves}|equalsToHitbox
+Block{minecraft:azalea_leaves}|equalsToHitbox
+Block{minecraft:flowering_azalea_leaves}|equalsToHitbox
 Block{minecraft:sponge}|equalsToHitbox
 Block{minecraft:wet_sponge}|equalsToHitbox
 Block{minecraft:glass}|equalsToHitbox
 Block{minecraft:lapis_ore}|equalsToHitbox
+Block{minecraft:deepslate_lapis_ore}|equalsToHitbox
 Block{minecraft:lapis_block}|equalsToHitbox
 Block{minecraft:dispenser}|equalsToHitbox
 Block{minecraft:sandstone}|equalsToHitbox
@@ -98,30 +105,7 @@ Block{minecraft:dead_bush}|equalsToHitbox
 Block{minecraft:seagrass}|equalsToHitbox
 Block{minecraft:tall_seagrass}|equalsToHitbox
 Block{minecraft:piston}|equalsToHitbox
-Block{minecraft:piston_head}[facing=north,short=true,type=normal]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=north,short=true,type=sticky]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=north,short=false,type=normal]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.25]]
-Block{minecraft:piston_head}[facing=north,short=false,type=sticky]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.25]]
-Block{minecraft:piston_head}[facing=east,short=true,type=normal]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=east,short=true,type=sticky]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=east,short=false,type=normal]|VoxelShape[AABB[-0.25, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=east,short=false,type=sticky]|VoxelShape[AABB[-0.25, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=south,short=true,type=normal]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=south,short=true,type=sticky]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=south,short=false,type=normal]|VoxelShape[AABB[0.0, 0.0, -0.25] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=south,short=false,type=sticky]|VoxelShape[AABB[0.0, 0.0, -0.25] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=west,short=true,type=normal]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=west,short=true,type=sticky]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=west,short=false,type=normal]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.25, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=west,short=false,type=sticky]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.25, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=up,short=true,type=normal]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=up,short=true,type=sticky]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=up,short=false,type=normal]|VoxelShape[AABB[0.0, -0.25, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=up,short=false,type=sticky]|VoxelShape[AABB[0.0, -0.25, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=down,short=true,type=normal]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=down,short=true,type=sticky]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:piston_head}[facing=down,short=false,type=normal]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.25, 1.0]]
-Block{minecraft:piston_head}[facing=down,short=false,type=sticky]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.25, 1.0]]
+Block{minecraft:piston_head}|equalsToHitbox
 Block{minecraft:white_wool}|equalsToHitbox
 Block{minecraft:orange_wool}|equalsToHitbox
 Block{minecraft:magenta_wool}|equalsToHitbox
@@ -139,19 +123,19 @@ Block{minecraft:green_wool}|equalsToHitbox
 Block{minecraft:red_wool}|equalsToHitbox
 Block{minecraft:black_wool}|equalsToHitbox
 Block{minecraft:moving_piston}|equalsToHitbox
-Block{minecraft:dandelion}|VoxelShape[AABB[0.42916667461395264, 0.0, 0.12916667014360428] -> [0.8041666746139526, 0.625, 0.5041666701436043]]
-Block{minecraft:poppy}|VoxelShape[AABB[0.19583334028720856, 0.0, 0.2958333343267441] -> [0.5708333402872086, 0.625, 0.6708333343267441]]
-Block{minecraft:blue_orchid}|VoxelShape[AABB[0.09583333507180214, 0.0, 0.12916667014360428] -> [0.47083333507180214, 0.625, 0.5041666701436043]]
-Block{minecraft:allium}|VoxelShape[AABB[0.2958333343267441, 0.0, 0.3291666805744171] -> [0.6708333343267441, 0.625, 0.7041666805744171]]
-Block{minecraft:azure_bluet}|VoxelShape[AABB[0.12916667014360428, 0.0, 0.4625000059604645] -> [0.5041666701436043, 0.625, 0.8375000059604645]]
-Block{minecraft:red_tulip}|VoxelShape[AABB[0.4625000059604645, 0.0, 0.42916667461395264] -> [0.8375000059604645, 0.625, 0.8041666746139526]]
-Block{minecraft:orange_tulip}|VoxelShape[AABB[0.42916667461395264, 0.0, 0.19583334028720856] -> [0.8041666746139526, 0.625, 0.5708333402872086]]
-Block{minecraft:white_tulip}|VoxelShape[AABB[0.5625, 0.0, 0.3958333432674408] -> [0.9375, 0.625, 0.7708333432674408]]
-Block{minecraft:pink_tulip}|VoxelShape[AABB[0.42916667461395264, 0.0, 0.12916667014360428] -> [0.8041666746139526, 0.625, 0.5041666701436043]]
-Block{minecraft:oxeye_daisy}|VoxelShape[AABB[0.5291666686534882, 0.0, 0.2958333343267441] -> [0.9041666686534882, 0.625, 0.6708333343267441]]
-Block{minecraft:cornflower}|VoxelShape[AABB[0.5291666686534882, 0.0, 0.4958333373069763] -> [0.9041666686534882, 0.625, 0.8708333373069763]]
-Block{minecraft:wither_rose}|VoxelShape[AABB[0.26250000298023224, 0.0, 0.4958333373069763] -> [0.6375000029802322, 0.625, 0.8708333373069763]]
-Block{minecraft:lily_of_the_valley}|VoxelShape[AABB[0.4625000059604645, 0.0, 0.16250000149011612] -> [0.8375000059604645, 0.625, 0.5375000014901161]]
+Block{minecraft:dandelion}|VoxelShape[AABB[0.09583333507180214, 0.0, 0.0625] -> [0.47083333507180214, 0.625, 0.4375]]
+Block{minecraft:poppy}|VoxelShape[AABB[0.5625, 0.0, 0.5291666686534882] -> [0.9375, 0.625, 0.9041666686534882]]
+Block{minecraft:blue_orchid}|VoxelShape[AABB[0.5625, 0.0, 0.2958333343267441] -> [0.9375, 0.625, 0.6708333343267441]]
+Block{minecraft:allium}|VoxelShape[AABB[0.12916667014360428, 0.0, 0.19583334028720856] -> [0.5041666701436043, 0.625, 0.5708333402872086]]
+Block{minecraft:azure_bluet}|VoxelShape[AABB[0.0625, 0.0, 0.0625] -> [0.4375, 0.625, 0.4375]]
+Block{minecraft:red_tulip}|VoxelShape[AABB[0.4625000059604645, 0.0, 0.12916667014360428] -> [0.8375000059604645, 0.625, 0.5041666701436043]]
+Block{minecraft:orange_tulip}|VoxelShape[AABB[0.5625, 0.0, 0.3291666805744171] -> [0.9375, 0.625, 0.7041666805744171]]
+Block{minecraft:white_tulip}|VoxelShape[AABB[0.26250000298023224, 0.0, 0.3958333432674408] -> [0.6375000029802322, 0.625, 0.7708333432674408]]
+Block{minecraft:pink_tulip}|VoxelShape[AABB[0.5291666686534882, 0.0, 0.4625000059604645] -> [0.9041666686534882, 0.625, 0.8375000059604645]]
+Block{minecraft:oxeye_daisy}|VoxelShape[AABB[0.26250000298023224, 0.0, 0.2291666716337204] -> [0.6375000029802322, 0.625, 0.6041666716337204]]
+Block{minecraft:cornflower}|VoxelShape[AABB[0.09583333507180214, 0.0, 0.42916667461395264] -> [0.47083333507180214, 0.625, 0.8041666746139526]]
+Block{minecraft:wither_rose}|VoxelShape[AABB[0.16250000149011612, 0.0, 0.12916667014360428] -> [0.5375000014901161, 0.625, 0.5041666701436043]]
+Block{minecraft:lily_of_the_valley}|VoxelShape[AABB[0.42916667461395264, 0.0, 0.36250001192092896] -> [0.8041666746139526, 0.625, 0.737500011920929]]
 Block{minecraft:brown_mushroom}|equalsToHitbox
 Block{minecraft:red_mushroom}|equalsToHitbox
 Block{minecraft:gold_block}|equalsToHitbox
@@ -164,11 +148,13 @@ Block{minecraft:obsidian}|equalsToHitbox
 Block{minecraft:torch}|equalsToHitbox
 Block{minecraft:wall_torch}|equalsToHitbox
 Block{minecraft:fire}|equalsToHitbox
+Block{minecraft:soul_fire}|equalsToHitbox
 Block{minecraft:spawner}|equalsToHitbox
 Block{minecraft:oak_stairs}|equalsToHitbox
 Block{minecraft:chest}|equalsToHitbox
 Block{minecraft:redstone_wire}|equalsToHitbox
 Block{minecraft:diamond_ore}|equalsToHitbox
+Block{minecraft:deepslate_diamond_ore}|equalsToHitbox
 Block{minecraft:diamond_block}|equalsToHitbox
 Block{minecraft:crafting_table}|equalsToHitbox
 Block{minecraft:wheat}|equalsToHitbox
@@ -200,6 +186,7 @@ Block{minecraft:jungle_pressure_plate}|equalsToHitbox
 Block{minecraft:acacia_pressure_plate}|equalsToHitbox
 Block{minecraft:dark_oak_pressure_plate}|equalsToHitbox
 Block{minecraft:redstone_ore}|equalsToHitbox
+Block{minecraft:deepslate_redstone_ore}|equalsToHitbox
 Block{minecraft:redstone_torch}|equalsToHitbox
 Block{minecraft:redstone_wall_torch}|equalsToHitbox
 Block{minecraft:stone_button}|equalsToHitbox
@@ -245,6 +232,11 @@ Block{minecraft:oak_fence}[east=false,north=false,south=false,waterlogged=false,
 Block{minecraft:pumpkin}|equalsToHitbox
 Block{minecraft:netherrack}|equalsToHitbox
 Block{minecraft:soul_sand}|equalsToHitbox
+Block{minecraft:soul_soil}|equalsToHitbox
+Block{minecraft:basalt}|equalsToHitbox
+Block{minecraft:polished_basalt}|equalsToHitbox
+Block{minecraft:soul_torch}|equalsToHitbox
+Block{minecraft:soul_wall_torch}|equalsToHitbox
 Block{minecraft:glowstone}|equalsToHitbox
 Block{minecraft:nether_portal}|equalsToHitbox
 Block{minecraft:carved_pumpkin}|equalsToHitbox
@@ -287,44 +279,15 @@ Block{minecraft:brown_mushroom_block}|equalsToHitbox
 Block{minecraft:red_mushroom_block}|equalsToHitbox
 Block{minecraft:mushroom_stem}|equalsToHitbox
 Block{minecraft:iron_bars}|equalsToHitbox
+Block{minecraft:chain}|equalsToHitbox
 Block{minecraft:glass_pane}|equalsToHitbox
 Block{minecraft:melon}|equalsToHitbox
 Block{minecraft:attached_pumpkin_stem}|equalsToHitbox
 Block{minecraft:attached_melon_stem}|equalsToHitbox
 Block{minecraft:pumpkin_stem}|equalsToHitbox
 Block{minecraft:melon_stem}|equalsToHitbox
-Block{minecraft:vine}[east=true,north=true,south=true,up=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=true,south=true,up=true,west=false]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=true,south=true,up=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=true,south=true,up=false,west=false]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=true,south=false,up=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=true,south=false,up=true,west=false]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=true,south=false,up=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=true,south=false,up=false,west=false]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=false,south=true,up=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=false,south=true,up=true,west=false]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=false,south=true,up=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=false,south=true,up=false,west=false]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=false,south=false,up=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=false,south=false,up=true,west=false]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=false,south=false,up=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=true,north=false,south=false,up=false,west=false]|VoxelShape[AABB[0.9375, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=true,south=true,up=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=true,south=true,up=true,west=false]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=true,south=true,up=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=true,south=true,up=false,west=false]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=true,south=false,up=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=true,south=false,up=true,west=false]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=true,south=false,up=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=true,south=false,up=false,west=false]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 0.0625]]
-Block{minecraft:vine}[east=false,north=false,south=true,up=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=false,south=true,up=true,west=false]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=false,south=true,up=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=false,south=true,up=false,west=false]|VoxelShape[AABB[0.0, 0.0, 0.9375] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=false,south=false,up=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=false,south=false,up=true,west=false]|VoxelShape[AABB[0.0, 0.9375, 0.0] -> [1.0, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=false,south=false,up=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [0.0625, 1.0, 1.0]]
-Block{minecraft:vine}[east=false,north=false,south=false,up=false,west=false]|equalsToHitbox
+Block{minecraft:vine}|equalsToHitbox
+Block{minecraft:glow_lichen}|equalsToHitbox
 Block{minecraft:oak_fence_gate}[facing=north,in_wall=true,open=true,powered=true]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
 Block{minecraft:oak_fence_gate}[facing=north,in_wall=true,open=true,powered=false]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
 Block{minecraft:oak_fence_gate}[facing=north,in_wall=true,open=false,powered=true]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
@@ -399,6 +362,9 @@ Block{minecraft:nether_wart}|equalsToHitbox
 Block{minecraft:enchanting_table}|equalsToHitbox
 Block{minecraft:brewing_stand}|equalsToHitbox
 Block{minecraft:cauldron}|equalsToHitbox
+Block{minecraft:water_cauldron}|equalsToHitbox
+Block{minecraft:lava_cauldron}|equalsToHitbox
+Block{minecraft:powder_snow_cauldron}|equalsToHitbox
 Block{minecraft:end_portal}|equalsToHitbox
 Block{minecraft:end_portal_frame}|equalsToHitbox
 Block{minecraft:end_stone}|equalsToHitbox
@@ -407,6 +373,7 @@ Block{minecraft:redstone_lamp}|equalsToHitbox
 Block{minecraft:cocoa}|equalsToHitbox
 Block{minecraft:sandstone_stairs}|equalsToHitbox
 Block{minecraft:emerald_ore}|equalsToHitbox
+Block{minecraft:deepslate_emerald_ore}|equalsToHitbox
 Block{minecraft:ender_chest}|equalsToHitbox
 Block{minecraft:tripwire_hook}|equalsToHitbox
 Block{minecraft:tripwire}|equalsToHitbox
@@ -516,6 +483,7 @@ Block{minecraft:acacia_stairs}|equalsToHitbox
 Block{minecraft:dark_oak_stairs}|equalsToHitbox
 Block{minecraft:slime_block}|equalsToHitbox
 Block{minecraft:barrier}|equalsToHitbox
+Block{minecraft:light}|equalsToHitbox
 Block{minecraft:iron_trapdoor}|equalsToHitbox
 Block{minecraft:prismarine}|equalsToHitbox
 Block{minecraft:prismarine_bricks}|equalsToHitbox
@@ -945,7 +913,7 @@ Block{minecraft:purpur_pillar}|equalsToHitbox
 Block{minecraft:purpur_stairs}|equalsToHitbox
 Block{minecraft:end_stone_bricks}|equalsToHitbox
 Block{minecraft:beetroots}|equalsToHitbox
-Block{minecraft:grass_path}|equalsToHitbox
+Block{minecraft:dirt_path}|equalsToHitbox
 Block{minecraft:end_gateway}|equalsToHitbox
 Block{minecraft:repeating_command_block}|equalsToHitbox
 Block{minecraft:chain_command_block}|equalsToHitbox
@@ -1068,19 +1036,19 @@ Block{minecraft:horn_coral_wall_fan}|equalsToHitbox
 Block{minecraft:sea_pickle}|equalsToHitbox
 Block{minecraft:blue_ice}|equalsToHitbox
 Block{minecraft:conduit}|equalsToHitbox
-Block{minecraft:bamboo_sapling}|VoxelShape[AABB[0.2666666805744171, 0.0, 0.3333333432674408] -> [0.7666666805744171, 0.75, 0.8333333432674408]]
-Block{minecraft:bamboo}[age=0,leaves=none,stage=0]|VoxelShape[AABB[0.12916667014360428, 0.0, 0.4958333373069763] -> [0.5041666701436043, 1.0, 0.8708333373069763]]
-Block{minecraft:bamboo}[age=0,leaves=none,stage=1]|VoxelShape[AABB[0.5291666686534882, 0.0, 0.2291666716337204] -> [0.9041666686534882, 1.0, 0.6041666716337204]]
-Block{minecraft:bamboo}[age=0,leaves=small,stage=0]|VoxelShape[AABB[0.42916667461395264, 0.0, 0.09583333507180214] -> [0.8041666746139526, 1.0, 0.47083333507180214]]
-Block{minecraft:bamboo}[age=0,leaves=small,stage=1]|VoxelShape[AABB[0.12916667014360428, 0.0, 0.4958333373069763] -> [0.5041666701436043, 1.0, 0.8708333373069763]]
-Block{minecraft:bamboo}[age=0,leaves=large,stage=0]|VoxelShape[AABB[0.3708333373069763, 0.0, 0.30416667461395264] -> [0.9958333373069763, 1.0, 0.9291666746139526]]
-Block{minecraft:bamboo}[age=0,leaves=large,stage=1]|VoxelShape[AABB[0.1041666716337204, 0.0, 0.03750000149011612] -> [0.7291666716337204, 1.0, 0.6625000014901161]]
-Block{minecraft:bamboo}[age=1,leaves=none,stage=0]|VoxelShape[AABB[0.19583334028720856, 0.0, 0.3958333432674408] -> [0.5708333402872086, 1.0, 0.7708333432674408]]
-Block{minecraft:bamboo}[age=1,leaves=none,stage=1]|VoxelShape[AABB[0.0625, 0.0, 0.4958333373069763] -> [0.4375, 1.0, 0.8708333373069763]]
-Block{minecraft:bamboo}[age=1,leaves=small,stage=0]|VoxelShape[AABB[0.4625000059604645, 0.0, 0.26250000298023224] -> [0.8375000059604645, 1.0, 0.6375000029802322]]
-Block{minecraft:bamboo}[age=1,leaves=small,stage=1]|VoxelShape[AABB[0.09583333507180214, 0.0, 0.5625] -> [0.47083333507180214, 1.0, 0.9375]]
-Block{minecraft:bamboo}[age=1,leaves=large,stage=0]|VoxelShape[AABB[-0.02916666492819786, 0.0, -0.02916666492819786] -> [0.5958333350718021, 1.0, 0.5958333350718021]]
-Block{minecraft:bamboo}[age=1,leaves=large,stage=1]|VoxelShape[AABB[0.03750000149011612, 0.0, 0.3375000059604645] -> [0.6625000014901161, 1.0, 0.9625000059604645]]
+Block{minecraft:bamboo_sapling}|VoxelShape[AABB[0.4000000059604645, 0.0, 0.2666666805744171] -> [0.9000000059604645, 0.75, 0.7666666805744171]]
+Block{minecraft:bamboo}[age=0,leaves=none,stage=0]|VoxelShape[AABB[0.4625000059604645, 0.0, 0.4958333373069763] -> [0.8375000059604645, 1.0, 0.8708333373069763]]
+Block{minecraft:bamboo}[age=0,leaves=none,stage=1]|VoxelShape[AABB[0.0625, 0.0, 0.2291666716337204] -> [0.4375, 1.0, 0.6041666716337204]]
+Block{minecraft:bamboo}[age=0,leaves=small,stage=0]|VoxelShape[AABB[0.4625000059604645, 0.0, 0.26250000298023224] -> [0.8375000059604645, 1.0, 0.6375000029802322]]
+Block{minecraft:bamboo}[age=0,leaves=small,stage=1]|VoxelShape[AABB[0.3291666805744171, 0.0, 0.4958333373069763] -> [0.7041666805744171, 1.0, 0.8708333373069763]]
+Block{minecraft:bamboo}[age=0,leaves=large,stage=0]|VoxelShape[AABB[0.2708333432674408, 0.0, 0.3375000059604645] -> [0.8958333432674408, 1.0, 0.9625000059604645]]
+Block{minecraft:bamboo}[age=0,leaves=large,stage=1]|VoxelShape[AABB[0.07083334028720856, 0.0, 0.17083333432674408] -> [0.6958333402872086, 1.0, 0.7958333343267441]]
+Block{minecraft:bamboo}[age=1,leaves=none,stage=0]|VoxelShape[AABB[0.5291666686534882, 0.0, 0.3291666805744171] -> [0.9041666686534882, 1.0, 0.7041666805744171]]
+Block{minecraft:bamboo}[age=1,leaves=none,stage=1]|VoxelShape[AABB[0.4625000059604645, 0.0, 0.26250000298023224] -> [0.8375000059604645, 1.0, 0.6375000029802322]]
+Block{minecraft:bamboo}[age=1,leaves=small,stage=0]|VoxelShape[AABB[0.5291666686534882, 0.0, 0.4958333373069763] -> [0.9041666686534882, 1.0, 0.8708333373069763]]
+Block{minecraft:bamboo}[age=1,leaves=small,stage=1]|VoxelShape[AABB[0.26250000298023224, 0.0, 0.2291666716337204] -> [0.6375000029802322, 1.0, 0.6041666716337204]]
+Block{minecraft:bamboo}[age=1,leaves=large,stage=0]|VoxelShape[AABB[0.3708333373069763, 0.0, 0.07083334028720856] -> [0.9958333373069763, 1.0, 0.6958333402872086]]
+Block{minecraft:bamboo}[age=1,leaves=large,stage=1]|VoxelShape[AABB[0.07083334028720856, 0.0, 0.13750000298023224] -> [0.6958333402872086, 1.0, 0.7625000029802322]]
 Block{minecraft:potted_bamboo}|equalsToHitbox
 Block{minecraft:void_air}|equalsToHitbox
 Block{minecraft:cave_air}|equalsToHitbox
@@ -1137,12 +1105,331 @@ Block{minecraft:smithing_table}|equalsToHitbox
 Block{minecraft:stonecutter}|equalsToHitbox
 Block{minecraft:bell}|equalsToHitbox
 Block{minecraft:lantern}|equalsToHitbox
+Block{minecraft:soul_lantern}|equalsToHitbox
 Block{minecraft:campfire}|equalsToHitbox
+Block{minecraft:soul_campfire}|equalsToHitbox
 Block{minecraft:sweet_berry_bush}|equalsToHitbox
+Block{minecraft:warped_stem}|equalsToHitbox
+Block{minecraft:stripped_warped_stem}|equalsToHitbox
+Block{minecraft:warped_hyphae}|equalsToHitbox
+Block{minecraft:stripped_warped_hyphae}|equalsToHitbox
+Block{minecraft:warped_nylium}|equalsToHitbox
+Block{minecraft:warped_fungus}|equalsToHitbox
+Block{minecraft:warped_wart_block}|equalsToHitbox
+Block{minecraft:warped_roots}|equalsToHitbox
+Block{minecraft:nether_sprouts}|equalsToHitbox
+Block{minecraft:crimson_stem}|equalsToHitbox
+Block{minecraft:stripped_crimson_stem}|equalsToHitbox
+Block{minecraft:crimson_hyphae}|equalsToHitbox
+Block{minecraft:stripped_crimson_hyphae}|equalsToHitbox
+Block{minecraft:crimson_nylium}|equalsToHitbox
+Block{minecraft:crimson_fungus}|equalsToHitbox
+Block{minecraft:shroomlight}|equalsToHitbox
+Block{minecraft:weeping_vines}|equalsToHitbox
+Block{minecraft:weeping_vines_plant}|equalsToHitbox
+Block{minecraft:twisting_vines}|equalsToHitbox
+Block{minecraft:twisting_vines_plant}|equalsToHitbox
+Block{minecraft:crimson_roots}|equalsToHitbox
+Block{minecraft:crimson_planks}|equalsToHitbox
+Block{minecraft:warped_planks}|equalsToHitbox
+Block{minecraft:crimson_slab}|equalsToHitbox
+Block{minecraft:warped_slab}|equalsToHitbox
+Block{minecraft:crimson_pressure_plate}|equalsToHitbox
+Block{minecraft:warped_pressure_plate}|equalsToHitbox
+Block{minecraft:crimson_fence}[east=true,north=true,south=true,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=true,north=true,south=true,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=true,north=true,south=true,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=true,north=true,south=true,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=true,north=true,south=false,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=true,north=true,south=false,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [1.0, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=true,north=true,south=false,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=true,north=true,south=false,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [1.0, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=true,north=false,south=true,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [1.0, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=true,north=false,south=true,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [1.0, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=true,north=false,south=true,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [1.0, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=true,north=false,south=true,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [1.0, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=true,north=false,south=false,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [1.0, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=true,north=false,south=false,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [1.0, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=true,north=false,south=false,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [1.0, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=true,north=false,south=false,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [1.0, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=false,north=true,south=true,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [0.625, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=false,north=true,south=true,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [0.625, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=false,north=true,south=true,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [0.625, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=false,north=true,south=true,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [0.625, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=false,north=true,south=false,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [0.625, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=false,north=true,south=false,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [0.625, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=false,north=true,south=false,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [0.625, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=false,north=true,south=false,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [0.625, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=false,north=false,south=true,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [0.625, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=false,north=false,south=true,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [0.625, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=false,north=false,south=true,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [0.625, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=false,north=false,south=true,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [0.625, 1.0, 1.0]]
+Block{minecraft:crimson_fence}[east=false,north=false,south=false,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [0.625, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=false,north=false,south=false,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [0.625, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=false,north=false,south=false,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [0.625, 1.0, 0.625]]
+Block{minecraft:crimson_fence}[east=false,north=false,south=false,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [0.625, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=true,north=true,south=true,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=true,north=true,south=true,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=true,north=true,south=true,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=true,north=true,south=true,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [1.0, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=true,north=true,south=false,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=true,north=true,south=false,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [1.0, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=true,north=true,south=false,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [1.0, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=true,north=true,south=false,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [1.0, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=true,north=false,south=true,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [1.0, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=true,north=false,south=true,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [1.0, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=true,north=false,south=true,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [1.0, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=true,north=false,south=true,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [1.0, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=true,north=false,south=false,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [1.0, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=true,north=false,south=false,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [1.0, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=true,north=false,south=false,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [1.0, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=true,north=false,south=false,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [1.0, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=false,north=true,south=true,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [0.625, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=false,north=true,south=true,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [0.625, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=false,north=true,south=true,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [0.625, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=false,north=true,south=true,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [0.625, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=false,north=true,south=false,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [0.625, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=false,north=true,south=false,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [0.625, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=false,north=true,south=false,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.0] -> [0.625, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=false,north=true,south=false,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.0] -> [0.625, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=false,north=false,south=true,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [0.625, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=false,north=false,south=true,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [0.625, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=false,north=false,south=true,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [0.625, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=false,north=false,south=true,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [0.625, 1.0, 1.0]]
+Block{minecraft:warped_fence}[east=false,north=false,south=false,waterlogged=true,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [0.625, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=false,north=false,south=false,waterlogged=true,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [0.625, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=false,north=false,south=false,waterlogged=false,west=true]|VoxelShape[AABB[0.0, 0.0, 0.375] -> [0.625, 1.0, 0.625]]
+Block{minecraft:warped_fence}[east=false,north=false,south=false,waterlogged=false,west=false]|VoxelShape[AABB[0.375, 0.0, 0.375] -> [0.625, 1.0, 0.625]]
+Block{minecraft:crimson_trapdoor}|equalsToHitbox
+Block{minecraft:warped_trapdoor}|equalsToHitbox
+Block{minecraft:crimson_fence_gate}[facing=north,in_wall=true,open=true,powered=true]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=north,in_wall=true,open=true,powered=false]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=north,in_wall=true,open=false,powered=true]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=north,in_wall=true,open=false,powered=false]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=north,in_wall=false,open=true,powered=true]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=north,in_wall=false,open=true,powered=false]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=north,in_wall=false,open=false,powered=true]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=north,in_wall=false,open=false,powered=false]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=south,in_wall=true,open=true,powered=true]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=south,in_wall=true,open=true,powered=false]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=south,in_wall=true,open=false,powered=true]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=south,in_wall=true,open=false,powered=false]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=south,in_wall=false,open=true,powered=true]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=south,in_wall=false,open=true,powered=false]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=south,in_wall=false,open=false,powered=true]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=south,in_wall=false,open=false,powered=false]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:crimson_fence_gate}[facing=west,in_wall=true,open=true,powered=true]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=west,in_wall=true,open=true,powered=false]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=west,in_wall=true,open=false,powered=true]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=west,in_wall=true,open=false,powered=false]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=west,in_wall=false,open=true,powered=true]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=west,in_wall=false,open=true,powered=false]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=west,in_wall=false,open=false,powered=true]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=west,in_wall=false,open=false,powered=false]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=east,in_wall=true,open=true,powered=true]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=east,in_wall=true,open=true,powered=false]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=east,in_wall=true,open=false,powered=true]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=east,in_wall=true,open=false,powered=false]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=east,in_wall=false,open=true,powered=true]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=east,in_wall=false,open=true,powered=false]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=east,in_wall=false,open=false,powered=true]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:crimson_fence_gate}[facing=east,in_wall=false,open=false,powered=false]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=north,in_wall=true,open=true,powered=true]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=north,in_wall=true,open=true,powered=false]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=north,in_wall=true,open=false,powered=true]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=north,in_wall=true,open=false,powered=false]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=north,in_wall=false,open=true,powered=true]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=north,in_wall=false,open=true,powered=false]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=north,in_wall=false,open=false,powered=true]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=north,in_wall=false,open=false,powered=false]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=south,in_wall=true,open=true,powered=true]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=south,in_wall=true,open=true,powered=false]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=south,in_wall=true,open=false,powered=true]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=south,in_wall=true,open=false,powered=false]|VoxelShape[AABB[0.0, 0.125, 0.4375] -> [1.0, 0.8125, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=south,in_wall=false,open=true,powered=true]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=south,in_wall=false,open=true,powered=false]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=south,in_wall=false,open=false,powered=true]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=south,in_wall=false,open=false,powered=false]|VoxelShape[AABB[0.0, 0.3125, 0.4375] -> [1.0, 1.0, 0.5625]]
+Block{minecraft:warped_fence_gate}[facing=west,in_wall=true,open=true,powered=true]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=west,in_wall=true,open=true,powered=false]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=west,in_wall=true,open=false,powered=true]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=west,in_wall=true,open=false,powered=false]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=west,in_wall=false,open=true,powered=true]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=west,in_wall=false,open=true,powered=false]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=west,in_wall=false,open=false,powered=true]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=west,in_wall=false,open=false,powered=false]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=east,in_wall=true,open=true,powered=true]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=east,in_wall=true,open=true,powered=false]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=east,in_wall=true,open=false,powered=true]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=east,in_wall=true,open=false,powered=false]|VoxelShape[AABB[0.4375, 0.125, 0.0] -> [0.5625, 0.8125, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=east,in_wall=false,open=true,powered=true]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=east,in_wall=false,open=true,powered=false]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=east,in_wall=false,open=false,powered=true]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:warped_fence_gate}[facing=east,in_wall=false,open=false,powered=false]|VoxelShape[AABB[0.4375, 0.3125, 0.0] -> [0.5625, 1.0, 1.0]]
+Block{minecraft:crimson_stairs}|equalsToHitbox
+Block{minecraft:warped_stairs}|equalsToHitbox
+Block{minecraft:crimson_button}|equalsToHitbox
+Block{minecraft:warped_button}|equalsToHitbox
+Block{minecraft:crimson_door}|equalsToHitbox
+Block{minecraft:warped_door}|equalsToHitbox
+Block{minecraft:crimson_sign}|equalsToHitbox
+Block{minecraft:warped_sign}|equalsToHitbox
+Block{minecraft:crimson_wall_sign}|equalsToHitbox
+Block{minecraft:warped_wall_sign}|equalsToHitbox
 Block{minecraft:structure_block}|equalsToHitbox
 Block{minecraft:jigsaw}|equalsToHitbox
 Block{minecraft:composter}|equalsToHitbox
+Block{minecraft:target}|equalsToHitbox
 Block{minecraft:bee_nest}|equalsToHitbox
 Block{minecraft:beehive}|equalsToHitbox
 Block{minecraft:honey_block}|equalsToHitbox
 Block{minecraft:honeycomb_block}|equalsToHitbox
+Block{minecraft:netherite_block}|equalsToHitbox
+Block{minecraft:ancient_debris}|equalsToHitbox
+Block{minecraft:crying_obsidian}|equalsToHitbox
+Block{minecraft:respawn_anchor}|equalsToHitbox
+Block{minecraft:potted_crimson_fungus}|equalsToHitbox
+Block{minecraft:potted_warped_fungus}|equalsToHitbox
+Block{minecraft:potted_crimson_roots}|equalsToHitbox
+Block{minecraft:potted_warped_roots}|equalsToHitbox
+Block{minecraft:lodestone}|equalsToHitbox
+Block{minecraft:blackstone}|equalsToHitbox
+Block{minecraft:blackstone_stairs}|equalsToHitbox
+Block{minecraft:blackstone_wall}|equalsToHitbox
+Block{minecraft:blackstone_slab}|equalsToHitbox
+Block{minecraft:polished_blackstone}|equalsToHitbox
+Block{minecraft:polished_blackstone_bricks}|equalsToHitbox
+Block{minecraft:cracked_polished_blackstone_bricks}|equalsToHitbox
+Block{minecraft:chiseled_polished_blackstone}|equalsToHitbox
+Block{minecraft:polished_blackstone_brick_slab}|equalsToHitbox
+Block{minecraft:polished_blackstone_brick_stairs}|equalsToHitbox
+Block{minecraft:polished_blackstone_brick_wall}|equalsToHitbox
+Block{minecraft:gilded_blackstone}|equalsToHitbox
+Block{minecraft:polished_blackstone_stairs}|equalsToHitbox
+Block{minecraft:polished_blackstone_slab}|equalsToHitbox
+Block{minecraft:polished_blackstone_pressure_plate}|equalsToHitbox
+Block{minecraft:polished_blackstone_button}|equalsToHitbox
+Block{minecraft:polished_blackstone_wall}|equalsToHitbox
+Block{minecraft:chiseled_nether_bricks}|equalsToHitbox
+Block{minecraft:cracked_nether_bricks}|equalsToHitbox
+Block{minecraft:quartz_bricks}|equalsToHitbox
+Block{minecraft:candle}|equalsToHitbox
+Block{minecraft:white_candle}|equalsToHitbox
+Block{minecraft:orange_candle}|equalsToHitbox
+Block{minecraft:magenta_candle}|equalsToHitbox
+Block{minecraft:light_blue_candle}|equalsToHitbox
+Block{minecraft:yellow_candle}|equalsToHitbox
+Block{minecraft:lime_candle}|equalsToHitbox
+Block{minecraft:pink_candle}|equalsToHitbox
+Block{minecraft:gray_candle}|equalsToHitbox
+Block{minecraft:light_gray_candle}|equalsToHitbox
+Block{minecraft:cyan_candle}|equalsToHitbox
+Block{minecraft:purple_candle}|equalsToHitbox
+Block{minecraft:blue_candle}|equalsToHitbox
+Block{minecraft:brown_candle}|equalsToHitbox
+Block{minecraft:green_candle}|equalsToHitbox
+Block{minecraft:red_candle}|equalsToHitbox
+Block{minecraft:black_candle}|equalsToHitbox
+Block{minecraft:candle_cake}|equalsToHitbox
+Block{minecraft:white_candle_cake}|equalsToHitbox
+Block{minecraft:orange_candle_cake}|equalsToHitbox
+Block{minecraft:magenta_candle_cake}|equalsToHitbox
+Block{minecraft:light_blue_candle_cake}|equalsToHitbox
+Block{minecraft:yellow_candle_cake}|equalsToHitbox
+Block{minecraft:lime_candle_cake}|equalsToHitbox
+Block{minecraft:pink_candle_cake}|equalsToHitbox
+Block{minecraft:gray_candle_cake}|equalsToHitbox
+Block{minecraft:light_gray_candle_cake}|equalsToHitbox
+Block{minecraft:cyan_candle_cake}|equalsToHitbox
+Block{minecraft:purple_candle_cake}|equalsToHitbox
+Block{minecraft:blue_candle_cake}|equalsToHitbox
+Block{minecraft:brown_candle_cake}|equalsToHitbox
+Block{minecraft:green_candle_cake}|equalsToHitbox
+Block{minecraft:red_candle_cake}|equalsToHitbox
+Block{minecraft:black_candle_cake}|equalsToHitbox
+Block{minecraft:amethyst_block}|equalsToHitbox
+Block{minecraft:budding_amethyst}|equalsToHitbox
+Block{minecraft:amethyst_cluster}|equalsToHitbox
+Block{minecraft:large_amethyst_bud}|equalsToHitbox
+Block{minecraft:medium_amethyst_bud}|equalsToHitbox
+Block{minecraft:small_amethyst_bud}|equalsToHitbox
+Block{minecraft:tuff}|equalsToHitbox
+Block{minecraft:calcite}|equalsToHitbox
+Block{minecraft:tinted_glass}|equalsToHitbox
+Block{minecraft:powder_snow}|empty
+Block{minecraft:sculk_sensor}|equalsToHitbox
+Block{minecraft:oxidized_copper}|equalsToHitbox
+Block{minecraft:weathered_copper}|equalsToHitbox
+Block{minecraft:exposed_copper}|equalsToHitbox
+Block{minecraft:copper_block}|equalsToHitbox
+Block{minecraft:copper_ore}|equalsToHitbox
+Block{minecraft:deepslate_copper_ore}|equalsToHitbox
+Block{minecraft:oxidized_cut_copper}|equalsToHitbox
+Block{minecraft:weathered_cut_copper}|equalsToHitbox
+Block{minecraft:exposed_cut_copper}|equalsToHitbox
+Block{minecraft:cut_copper}|equalsToHitbox
+Block{minecraft:oxidized_cut_copper_stairs}|equalsToHitbox
+Block{minecraft:weathered_cut_copper_stairs}|equalsToHitbox
+Block{minecraft:exposed_cut_copper_stairs}|equalsToHitbox
+Block{minecraft:cut_copper_stairs}|equalsToHitbox
+Block{minecraft:oxidized_cut_copper_slab}|equalsToHitbox
+Block{minecraft:weathered_cut_copper_slab}|equalsToHitbox
+Block{minecraft:exposed_cut_copper_slab}|equalsToHitbox
+Block{minecraft:cut_copper_slab}|equalsToHitbox
+Block{minecraft:waxed_copper_block}|equalsToHitbox
+Block{minecraft:waxed_weathered_copper}|equalsToHitbox
+Block{minecraft:waxed_exposed_copper}|equalsToHitbox
+Block{minecraft:waxed_oxidized_copper}|equalsToHitbox
+Block{minecraft:waxed_oxidized_cut_copper}|equalsToHitbox
+Block{minecraft:waxed_weathered_cut_copper}|equalsToHitbox
+Block{minecraft:waxed_exposed_cut_copper}|equalsToHitbox
+Block{minecraft:waxed_cut_copper}|equalsToHitbox
+Block{minecraft:waxed_oxidized_cut_copper_stairs}|equalsToHitbox
+Block{minecraft:waxed_weathered_cut_copper_stairs}|equalsToHitbox
+Block{minecraft:waxed_exposed_cut_copper_stairs}|equalsToHitbox
+Block{minecraft:waxed_cut_copper_stairs}|equalsToHitbox
+Block{minecraft:waxed_oxidized_cut_copper_slab}|equalsToHitbox
+Block{minecraft:waxed_weathered_cut_copper_slab}|equalsToHitbox
+Block{minecraft:waxed_exposed_cut_copper_slab}|equalsToHitbox
+Block{minecraft:waxed_cut_copper_slab}|equalsToHitbox
+Block{minecraft:lightning_rod}|equalsToHitbox
+Block{minecraft:pointed_dripstone}|empty
+Block{minecraft:dripstone_block}|equalsToHitbox
+Block{minecraft:cave_vines}|equalsToHitbox
+Block{minecraft:cave_vines_plant}|equalsToHitbox
+Block{minecraft:spore_blossom}|equalsToHitbox
+Block{minecraft:azalea}|equalsToHitbox
+Block{minecraft:flowering_azalea}|equalsToHitbox
+Block{minecraft:moss_carpet}|equalsToHitbox
+Block{minecraft:moss_block}|equalsToHitbox
+Block{minecraft:big_dripleaf}|equalsToHitbox
+Block{minecraft:big_dripleaf_stem}|equalsToHitbox
+Block{minecraft:small_dripleaf}|equalsToHitbox
+Block{minecraft:hanging_roots}|equalsToHitbox
+Block{minecraft:rooted_dirt}|equalsToHitbox
+Block{minecraft:deepslate}|equalsToHitbox
+Block{minecraft:cobbled_deepslate}|equalsToHitbox
+Block{minecraft:cobbled_deepslate_stairs}|equalsToHitbox
+Block{minecraft:cobbled_deepslate_slab}|equalsToHitbox
+Block{minecraft:cobbled_deepslate_wall}|equalsToHitbox
+Block{minecraft:polished_deepslate}|equalsToHitbox
+Block{minecraft:polished_deepslate_stairs}|equalsToHitbox
+Block{minecraft:polished_deepslate_slab}|equalsToHitbox
+Block{minecraft:polished_deepslate_wall}|equalsToHitbox
+Block{minecraft:deepslate_tiles}|equalsToHitbox
+Block{minecraft:deepslate_tile_stairs}|equalsToHitbox
+Block{minecraft:deepslate_tile_slab}|equalsToHitbox
+Block{minecraft:deepslate_tile_wall}|equalsToHitbox
+Block{minecraft:deepslate_bricks}|equalsToHitbox
+Block{minecraft:deepslate_brick_stairs}|equalsToHitbox
+Block{minecraft:deepslate_brick_slab}|equalsToHitbox
+Block{minecraft:deepslate_brick_wall}|equalsToHitbox
+Block{minecraft:chiseled_deepslate}|equalsToHitbox
+Block{minecraft:cracked_deepslate_bricks}|equalsToHitbox
+Block{minecraft:cracked_deepslate_tiles}|equalsToHitbox
+Block{minecraft:infested_deepslate}|equalsToHitbox
+Block{minecraft:smooth_basalt}|equalsToHitbox
+Block{minecraft:raw_iron_block}|equalsToHitbox
+Block{minecraft:raw_copper_block}|equalsToHitbox
+Block{minecraft:raw_gold_block}|equalsToHitbox
+Block{minecraft:potted_azalea_bush}|equalsToHitbox
